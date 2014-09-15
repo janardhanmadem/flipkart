@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="flipkart sanity test suite">
+
+<test name="facebook login test">
+    <classes>
+        <class name="com.flipkart.login.facebook_login_test" ></class>  
+    </classes>
+</test>
+
+<test name="filpkart login test">
+    <classes>
+        <class name="com.flipkart.login.flipkart_login_test" ></class>  
+    </classes>
+</test>
+
+<test name="google login test">
+    <classes>
+        <class name="com.flipkart.login.google_login_test" ></class>  
+    </classes>
+</test>
+
+</suite>

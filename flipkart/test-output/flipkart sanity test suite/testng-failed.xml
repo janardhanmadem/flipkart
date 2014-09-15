@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [flipkart sanity test suite]">
-  <test name="filpkart login test(failed)">
+  <test name="facebook login test(failed)">
     <classes>
-      <class name="com.flipkart.login.facebook_login_test">
-        <methods>
-          <include name="close"/>
-        </methods>
-      </class> <!-- com.flipkart.login.facebook_login_test -->
       <class name="com.flipkart.login.google_login_test">
         <methods>
           <include name="close"/>
         </methods>
       </class> <!-- com.flipkart.login.google_login_test -->
+      <class name="com.flipkart.login.facebook_login_test">
+        <methods>
+          <include name="close"/>
+          <include name="facebook_login"/>
+        </methods>
+      </class> <!-- com.flipkart.login.facebook_login_test -->
       <class name="com.flipkart.login.flipkart_login_test">
         <methods>
-          <include name="login"/>
           <include name="close"/>
         </methods>
       </class> <!-- com.flipkart.login.flipkart_login_test -->
     </classes>
-  </test> <!-- filpkart login test(failed) -->
+  </test> <!-- facebook login test(failed) -->
 </suite> <!-- Failed suite [flipkart sanity test suite] -->

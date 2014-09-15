@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="flipkart sanity test suite" duration-ms="80906" started-at="2014-09-15T05:26:04Z" finished-at="2014-09-15T05:27:25Z">
+  <suite name="flipkart sanity test suite" duration-ms="70539" started-at="2014-09-15T08:38:01Z" finished-at="2014-09-15T08:39:12Z">
     <groups>
     </groups>
-    <test name="facebook login test" duration-ms="27982" started-at="2014-09-15T05:26:04Z" finished-at="2014-09-15T05:26:32Z">
+    <test name="facebook login test" duration-ms="26062" started-at="2014-09-15T08:38:01Z" finished-at="2014-09-15T08:38:27Z">
       <class name="com.flipkart.login.facebook_login_test">
-        <test-method status="PASS" signature="facebook_login()[pri:0, instance:com.flipkart.login.facebook_login_test@279cb0f1]" name="facebook_login" duration-ms="25965" started-at="2014-09-15T10:56:04Z" finished-at="2014-09-15T10:56:30Z">
+        <test-method status="PASS" signature="facebook_login()[pri:0, instance:com.flipkart.login.facebook_login_test@279cb0f1]" name="facebook_login" duration-ms="23195" started-at="2014-09-15T14:08:01Z" finished-at="2014-09-15T14:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebook_login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.facebook_login_test@279cb0f1]" name="close" is-config="true" duration-ms="2005" started-at="2014-09-15T10:56:30Z" finished-at="2014-09-15T10:56:32Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.facebook_login_test@279cb0f1]" name="close" is-config="true" duration-ms="2851" started-at="2014-09-15T14:08:24Z" finished-at="2014-09-15T14:08:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.flipkart.login.facebook_login_test -->
     </test> <!-- facebook login test -->
-    <test name="filpkart login test" duration-ms="21053" started-at="2014-09-15T05:26:32Z" finished-at="2014-09-15T05:26:53Z">
+    <test name="filpkart login test" duration-ms="19820" started-at="2014-09-15T08:38:27Z" finished-at="2014-09-15T08:38:47Z">
       <class name="com.flipkart.login.flipkart_login_test">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.flipkart.login.flipkart_login_test@90f25dc]" name="login" duration-ms="18604" started-at="2014-09-15T10:56:32Z" finished-at="2014-09-15T10:56:51Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.flipkart.login.flipkart_login_test@90f25dc]" name="login" duration-ms="17547" started-at="2014-09-15T14:08:27Z" finished-at="2014-09-15T14:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.flipkart_login_test@90f25dc]" name="close" is-config="true" duration-ms="2448" started-at="2014-09-15T10:56:51Z" finished-at="2014-09-15T10:56:53Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.flipkart_login_test@90f25dc]" name="close" is-config="true" duration-ms="2273" started-at="2014-09-15T14:08:45Z" finished-at="2014-09-15T14:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.flipkart.login.flipkart_login_test -->
     </test> <!-- filpkart login test -->
-    <test name="google login test" duration-ms="31835" started-at="2014-09-15T05:26:53Z" finished-at="2014-09-15T05:27:25Z">
+    <test name="google login test" duration-ms="24576" started-at="2014-09-15T08:38:47Z" finished-at="2014-09-15T08:39:12Z">
       <class name="com.flipkart.login.google_login_test">
-        <test-method status="PASS" signature="facebook_login()[pri:0, instance:com.flipkart.login.google_login_test@71811419]" name="facebook_login" duration-ms="30025" started-at="2014-09-15T10:56:53Z" finished-at="2014-09-15T10:57:23Z">
+        <test-method status="PASS" signature="facebook_login()[pri:0, instance:com.flipkart.login.google_login_test@71811419]" name="facebook_login" duration-ms="22698" started-at="2014-09-15T14:08:47Z" finished-at="2014-09-15T14:09:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebook_login -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.google_login_test@71811419]" name="close" is-config="true" duration-ms="1809" started-at="2014-09-15T10:57:23Z" finished-at="2014-09-15T10:57:25Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.login.google_login_test@71811419]" name="close" is-config="true" duration-ms="1877" started-at="2014-09-15T14:09:10Z" finished-at="2014-09-15T14:09:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
